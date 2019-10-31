@@ -5,29 +5,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">  
     
     <!-- v5 -->
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    
+  
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
   </head>
 
   <body>
 
     <!-- stylization by class and not by element -->
     <header class="header"> 
-      <div class="header-content">
+      <div class="content">
         
-        <div class="logo">
+        <div class="logo fl-left">
           <a href="#">
             <img src="images/logo.png" alt="HTML and CSS">
           </a>
         </div>
 
+        <!-- button to mobile -->
+        <a href="#" class="nav-toggle fl-right">
+        	<i class="fas fa-bars"></i> MENU
+        </a>
+
         <nav class="nav">
+          <p class="text-right">
+          	<span class="nav-close">
+          		<i class="fas fa-times"></i>
+          	</span>
+          </p>
           <ul>
             <li><a href="#">Boats and Diner</a></li>
             <li><a href="#">Highlights</a></li>
@@ -76,6 +85,8 @@
 
     </section>
 
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 
   </body>
 </html>
